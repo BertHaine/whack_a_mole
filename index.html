@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Whack-A-Mole</title>
+  <link rel="icon" href="favicon.ico" type="image/x-icon" />
+  <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/7176334/7976772/css/fonts.css" />
+  <link rel='stylesheet' type='text/css' href='css/styles.css'>
+</head>
+<body>
+
+	<div class="header">
+	    <h1>Wack-A-Mole</h1>
+	    <div class="countDown">
+	    	<p id="counter">Timer: <span id="theCountDown">0</span></p>
+	    </div>
+		<div class="titleHead">
+			<div class="scorediv">
+			<div class="playerScore1">Score: <span class="theScore">0</span></div>
+			<div class="playerScore2">Score: <span class="theScore2">0</span></div>
+	  	</div>
+	<div class="endScreen">
+		<div class="endScore">Final Score</div>
+		<div class="endScore">Player One: <span class="theScore finalScore"></span> &nbsp;V.S.&nbsp; Player Two: <span class="theScore2 finalScore"></span></div>
+		<div class="whoWon"></div>
+	</div>
+
+	<div class="startPage">
+		<img src="img/molefront.png" class="frontPage">
+		<div class="startScreen">
+	  		<button id="start" value="true">Play</button>
+	  	</div>
+	 </div>
+
+
+	 <div class="playerTwoStart">
+		<img src="img/molefront.png" class="frontPage">
+		<div class="startScreen2">
+	  		<button id="start2" value="true">Player Two Start</button>
+	  	</div>
+	 </div>
+
+
+	<div class="container">
+		  <div class="row">
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="0">
+		    </div>
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="1">
+		    </div>
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="1">
+		    </div>
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="1">
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="2">
+		    </div>
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="3">
+		    </div>
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="1">
+		    </div>
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="4">
+		    </div>
+		  </div>
+		  <div class="row">
+		    <div class="cell">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="5">
+		    </div>
+		    <div class="cell">		    	
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="6">
+		    </div>
+		    <div class="cell" id="18">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="1">
+		    </div>
+		    <div class="cell" id="19">
+		    	<img src="img/hole.png" class="hole">
+		    	<img src="img/mole.png" class="mole" id="1">
+		    </div>
+		  </div>
+
+		  <div class="my_audio">
+			  <audio class="my_theme" controls preload="none">
+	    		<source src="audio/themesong.mp3" type="audio/mpeg">
+			  </audio>
+			  <audio class="my_punch" controls preload="none">
+	    		<source src="audio/punch.mp3" type="audio/mpeg">
+			  </audio>
+			  <audio class="my_scream" controls preload="none">
+	    		<source src="audio/scream.mp3" type="audio/mpeg">
+			  </audio>
+		  </div>
+
+
+		  <div class="mallet">
+			<img id="mallet" src="img/malletSmall.png">
+		</div>
+
+
+	</div>
+<script src="https://use.typekit.net/qvy2cpa.js"></script>
+<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script type='text/javascript' src='js/app.js'></script>
+</body>	
+</html>

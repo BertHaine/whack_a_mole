@@ -1,0 +1,197 @@
+body {
+	background-color: #939C7D;
+	text-align: right;
+	-webkit-user-select: none;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: "sutro-shaded-primary", sans-serif; 
+	font-weight: 400;
+	text-transform: uppercase;
+	color: white;
+	font-size: 45px;
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 13px;
+	letter-spacing: 4px;
+}
+
+button {
+	text-align: center;
+	font-family: "futura-pt", sans-serif; 
+	font-weight: 700;
+	text-transform: uppercase;
+	background-color: #231F20;
+	color: white;
+	letter-spacing: 3px;
+	border: none;
+	border-radius: 10px;
+	padding: 10px;
+	width: 200px;
+}
+
+p {
+	display: inline;
+	margin-left: 52px;
+}
+
+.countDown {
+	display: inline;
+	list-style-type: none;
+    text-align: left;
+    float: left;
+    font-family: "futura-pt", sans-serif; 
+	font-weight: 700;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	margin-top: 40px;
+}
+
+.header {
+	background-color: #231F20;
+	margin: 0 auto;
+	height: 80px;
+	width: 100%;
+	color: white;
+}
+
+.startPage {
+	margin: 0 auto;
+	background-color: #939C7D;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.playerTwoStart {
+	margin: 0 auto;
+	background-color: #939C7D;
+	text-align: center;
+	margin-top: 100px;
+}
+
+.scorediv {
+	font-family: "futura-pt", sans-serif; 
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-top: 16px;
+	padding-right: 50px;
+	letter-spacing: 3px;
+	font-size: 15px;
+	color: white;
+	text-decoration: none;
+	margin-top: 40px;
+}
+.container {
+   margin: 35px auto 20px auto;
+   cursor: none;
+   width: 1000px;
+   height: 400px;
+
+}
+
+.scoreDiv {
+	height: 150px;
+	color: #231F20;
+}
+
+
+.row {
+	height: 160px;
+}
+
+#mallet {
+	position: relative;
+	pointer-events:none;
+}
+
+.cell {
+	height: 100px;
+	width: 235px;
+	display: inline-block;
+	margin: 5px 5px;
+	position: relative;
+	overflow: hidden;
+}
+
+.hole {
+	position: absolute;
+	bottom: -2px;
+    left: 45px;
+    height: 35px;
+	pointer-events: auto;
+}
+.mole {
+	position: absolute;
+	bottom: -103px;
+    left: 45px;
+    height: 100px;
+    margin: 0 auto;
+    padding-left: 35px;
+}
+
+.mallet {
+	height: 0px;
+}
+
+.frontPage {
+	height: 100%;
+	width: 300px;
+	margin-bottom: 50px;
+}
+
+.endScreen {
+	float: none;
+	margin: 0 auto;
+	font-size: 20px;
+	color: white;
+	margin-top: 80px;
+	text-align: center !important;
+	font-family: "futura-pt", sans-serif; 
+	text-transform: uppercase;
+	letter-spacing: 3px;
+}
+
+.finalScore {
+	font-family: "Numbers Strasse A", "Numbers Strasse B";
+	font-style: normal;
+	font-weight: 400;
+	font-size: 32px;
+}
+
+.endScore {
+	margin-top: 10px;
+}
+
+.whoWon {
+	margin-top: 50px;
+	font-size: 100px;
+	letter-spacing: 5px;
+	animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#theCountDown {
+	font-family: "Numbers Strasse A", "Numbers Strasse B";
+	font-style: normal;
+	font-weight: 400;
+}
+
+.theScore {
+	font-family: "Numbers Strasse A", "Numbers Strasse B";
+	font-style: normal;
+	font-weight: 400;
+}
+
+.theScore2 {
+	font-family: "Numbers Strasse A", "Numbers Strasse B";
+	font-style: normal;
+	font-weight: 400;
+}
+
