@@ -88,7 +88,7 @@ p {
 
 .container {
    margin: 35px auto 20px auto;
-   cursor: none;
+   /*cursor: none;*/
    width: 1000px;
    height: 400px;
 
@@ -105,7 +105,7 @@ p {
 }
 
 #mallet {
-	position: relative;
+	position: absolute;
 	pointer-events:none;
 }
 
@@ -157,7 +157,7 @@ p {
 }
 
 .finalScore {
-	font-family: "Numbers Strasse A", "Numbers Strasse B";
+	font-family: "Numbers Strasse A", "Numbers Strasse B", serif;
 	font-style: normal;
 	font-weight: 400;
 	font-size: 32px;
@@ -179,19 +179,19 @@ p {
 }
 
 #theCountDown {
-	font-family: "Numbers Strasse A", "Numbers Strasse B";
+	font-family: "Numbers Strasse A", "Numbers Strasse B", serif;
 	font-style: normal;
 	font-weight: 400;
 }
 
 .theScore {
-	font-family: "Numbers Strasse A", "Numbers Strasse B";
+	font-family: "Numbers Strasse A", "Numbers Strasse B", serif;
 	font-style: normal;
 	font-weight: 400;
 }
 
 .theScore2 {
-	font-family: "Numbers Strasse A", "Numbers Strasse B";
+	font-family: "Numbers Strasse A", "Numbers Strasse B", serif;
 	font-style: normal;
 	font-weight: 400;
 }

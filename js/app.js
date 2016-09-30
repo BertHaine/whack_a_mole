@@ -6,8 +6,8 @@ checkPlayer();
 //// MOVE MALLET WITH MOUSE
 	$(document).mousemove(function(e){
     	$("#mallet").css({
-    		left: e.pageX - 950,
-    		top: e.pageY - 800
+    		left: e.pageX - 30,
+    		top: e.pageY - 140
     	});
 	});
 
